@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* page styles */
+
+
+html {
+    background: linear-gradient(rgb(242, 87, 234), rgb(252, 140, 246));
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    /* background: linear-gradient(rgb(242, 87, 234), rgb(252, 140, 246)); */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    line-height: 3em;
+}
