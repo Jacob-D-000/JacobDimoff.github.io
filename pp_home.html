@@ -12,12 +12,12 @@
 	<meta charset="utf-8">
 	<meta name="keyword">
 	<title>Home</title>
-	<link><!--link for style sheets-->
+	<link href="../css/pp_styles_take_2.css" rel="stylesheet">
 </head>
 
 <body>
 	<header>
-		<!--Header will be an image I create once I've got the coloring style I want-->
+		<img src="../img/pp_webheaderdest.png" alt="">
 	</header>
 	<section>
 		<h1>Home Page</h1>
@@ -35,20 +35,31 @@
 	</nav>
 
 	<footer>
-		<h2 id="footer">Contact Information</h2>
-		<h3>Email</h3>
-		<ul>
-			<li><a href="mailto:jacobdimoff@gmail.com">Personal:jacobdimoff@gmail.com </a></li>
-			<li><a href="mailto:w0478482@nscc.ca">Business: w0478482@nscc.ca</a></li>
-		</ul>
-		<h3>Phone</h3>
-		<ul>
-			<li><a href="tel:+19028257173">Personal:(902)-825-7173</a></li>
-		</ul>
-		<h3>GitHub Account</h3>
-		<ul>
-			<li><a href="https://github.com/Jacob-D-000"> https://github.com/Jacob-D-000</a></li>
-		</ul>
+		<table>
+			<colgroup>
+				<col id="Email">
+				<col id="phone">
+				<col id="github">
+			</colgroup>
+			<h2>Contact Information</h2>
+			<thead>
+				<tr>
+					<th>Email</th>
+					<th>Phone</th>
+					<th>GitHub</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="mailto:jacobdimoff@gmail.com">Personal:jacobdimoff@gmail.com</a></td>
+					<td><a href="tel:+19028257173">Personal:(902)-825-7173</a></td>
+					<td><a href="https://github.com/Jacob-D-000"> https://github.com/Jacob-D-000</a></td>
+				</tr>
+				<tr>
+					<td><a href="mailto:w0478482@nscc.ca">Business: w0478482@nscc.ca</a></td>
+				</tr>
+			</tbody>
+		</table>
 	</footer>
 
 </body>

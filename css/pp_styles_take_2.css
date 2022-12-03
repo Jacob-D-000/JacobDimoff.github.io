@@ -1,0 +1,173 @@
+
+
+/* html style */
+
+html {
+    background: linear-gradient(rgb(245, 88, 237), rgb(253, 140, 248));
+    font-size: 16px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+/* body style */
+
+body {
+    background-color: rgba(233, 231, 231, 0.404);
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px, auto;
+    width: 980px;
+    /* border: 1px solid red; */
+ }
+
+ ul {
+	list-style: none;
+	list-style-image: none;
+}
+
+ /* body * {
+    /* border: 1px solid blue; */
+ /* } */
+
+ /* header styles */
+
+ header {
+    height: 150px;
+ }
+/* nav style */
+
+body nav {
+    background-color:rgba(151, 58, 238, 0.37);
+    font-size: 1.5em;
+    color: black;
+    padding: 10px;
+    display: flex;
+}
+
+a#home {
+    flex-flow: row nowrap;
+    flex: 0 1 auto;
+    /* border: 3px solid black; */
+    padding-top: 10px;
+}
+
+nav > a#pagelink {
+    flex-flow: row nowrap;
+    /* background-color: blueviolet; */
+    flex: 1 1 auto;
+    text-align: center;
+    /* border: 3px solid black; */
+    margin: px;
+    /* padding: 5px; */
+    margin: 10px 20px;
+    text-decoration: none;
+    font-weight: none;
+    /* color: rgb(13, 13, 228); */
+    width: 33%;
+    font-size: 1em;
+    color:  blue;
+    transition: font-size 4s linear,
+    color 1s linear,
+    text-shadow 4s linear,
+    text-decoration 4s linear,
+    font-weight 8s;
+ }
+
+ a#pagelink:hover{
+    font-size:  1.2em;
+    color: rgb(69, 0, 158);
+    text-shadow: 15px 15px 15px;
+    text-decoration: underline;
+    font-weight: bold;
+ }
+
+ nav a {
+    padding: 5px 10px;
+    /* margin:  ; */
+ }
+ 
+ nav img {
+    width: 30px;
+    height: 30px
+ }
+ 
+ /* section style */
+
+h1 {
+    color: rgb(59, 4, 110);	
+    /* font-family: Baskerville, "Palatino Linotype", Palatino, 
+                 /* "Century Schoolbook", "Times New Roman", serif; */
+   font-size: 1.3em;
+   text-align: left;
+   /* padding: 0px 20px; */
+   margin: 20px;
+}
+
+section {
+    margin: 0px 20px;
+}
+
+/* article style */
+
+ 
+ /* article header {
+     margin: 20px auto;	
+     width: 70%; 
+ } */
+ 
+ article {
+    background: rgb(180, 177, 226);
+    border-radius: 90px 90px;
+    border: 2px double rgb(59, 4, 110);
+    margin: 10px;
+    padding: 20px 25px
+
+ }
+
+ /* footer style */
+
+ footer {
+    background-color:rgba(151, 58, 238, 0.37);
+    padding: 10px;
+    text-align: center;
+ }
+
+ footer h2 {
+    text-align: left;
+    margin: 20px;
+    padding: 10px, 20px;
+    font-size: 1.7;
+ }
+
+ table{
+    border-collapse: collapse;
+    width: 100%;
+ }
+
+ /* thead {
+    /* background-color: rgb(180, 177, 226); 
+ } */
+
+#Email {
+    width: 35%;
+    text-align: center;
+}
+
+#phone {
+    width: 25%;
+    text-align: center;
+}
+
+#github {
+    width: 40%;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    font-size: 1.3em;
+    font-weight: strong;
+}
