@@ -1,0 +1,42 @@
+
+/* body * {
+    border: 1px solid red;
+} */
+
+
+#Home {
+    background: rgb(180, 177, 226);
+    /* font-size: 1.5em; */
+    color: black;
+    /* padding: 30px; */
+    display: flex;
+    flex-flow: row wrap;
+    width: 740px;
+    height: 740px;
+    margin: 20px auto;
+}
+
+#Home a{
+    /* flex: 1 1 300px; */
+    width: 320px;
+    height: 320px;
+    /* padding: 30px 10px; */
+    margin: auto;
+
+}
+
+a > img {
+    width: 320px;
+    height: 320px;
+    margin: 0px auto;
+    /* transition:
+    text-shadow 4s linear,
+    width 4s linear
+    height 4s linear; */
+ }
+
+ /* a > img:hover{
+    text-shadow: 15px 15px 15px;
+    width: 350px;
+    height: 350px;
+} */

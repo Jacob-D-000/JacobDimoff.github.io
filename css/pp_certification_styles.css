@@ -1,0 +1,46 @@
+article {
+    background: rgb(180, 177, 226);
+    border-radius: 90px 90px;
+    border: 2px solid rgb(59, 4, 110);
+    margin: 10px;
+    padding: 25px 25px
+}
+
+/* table style */
+
+table {
+    border-collapse: collapse;
+}
+
+#skillist tr:not(:first-of-type) {
+    border-top: 2px solid black;
+    /* border-bottom: 2px solid black; */
+}
+
+#final{
+    border-bottom: inherit;
+}
+
+#skill {
+    border-right: 2px solid black;
+}
+
+#Evidence {
+    border-left: 2px solid black;
+}
+
+th {
+    text-align: center;
+    color: rgb(59, 4, 110);	
+}
+/* #skill {
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+} */
+
+/* dropdown style */
+
+.pulldown {
+    display: none;
+}
+

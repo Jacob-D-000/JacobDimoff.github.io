@@ -1,5 +1,4 @@
 
-
 /* html style */
 
 html {
@@ -12,7 +11,6 @@ html {
 
 body {
     background-color: rgba(233, 231, 231, 0.404);
-    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     margin-left: auto;
     margin-right: auto;
     margin: 0px, auto;
@@ -42,27 +40,21 @@ body nav {
     color: black;
     padding: 10px;
     display: flex;
+    flex-flow: row nowrap;
 }
 
 a#home {
-    flex-flow: row nowrap;
     flex: 0 1 auto;
-    /* border: 3px solid black; */
     padding-top: 10px;
 }
 
 nav > a#pagelink {
-    flex-flow: row nowrap;
-    /* background-color: blueviolet; */
     flex: 1 1 auto;
     text-align: center;
-    border: 3px solid black;
-    /* padding: 5px; */
     margin: 10px 5px;
     text-decoration: none;
     font-weight: strong;
     /* color: rgb(13, 13, 228); */
-    width: 33%;
     font-size: 1em;
     color:  blue;
     transition: font-size 4s linear,
@@ -70,6 +62,7 @@ nav > a#pagelink {
     text-shadow 4s linear,
     text-decoration 4s linear;
     /* font-weight 8s; */
+    /* display: inline-flex; */
  }
 
  a#pagelink:hover{
@@ -90,17 +83,28 @@ nav > a#pagelink {
     height: 30px
  }
  
- /* section style */
+
+/* header styles */
 
 h1 {
     color: rgb(59, 4, 110);	
-    /* font-family: Baskerville, "Palatino Linotype", Palatino, 
-                 /* "Century Schoolbook", "Times New Roman", serif; */
-   font-size: 1.3em;
-   text-align: left;
+    font-size: 1.5em;
+    text-align: left;
+    background-color: rgb(173, 101, 240);
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 30px;
+    display: inline-flex
    /* padding: 0px 20px; */
-   
 }
+
+h2 {
+    color: rgb(59, 4, 110);
+    margin: 30px 20px 30px 40px;
+
+}
+
+ /* section style */
 
 section {
     margin: 0px 20px;
@@ -108,23 +112,25 @@ section {
 
 /* article style */
 
- 
- /* article header {
-     margin: 20px auto;	
-     width: 70%; 
- } */
- 
  article {
     background: rgb(180, 177, 226);
     border-radius: 90px 90px;
-    border: 2px double rgb(59, 4, 110);
+    border: 2px solid rgb(59, 4, 110);
     margin: 10px;
     padding: 20px 25px
-
  }
 
  /* aside style */
  
+ aside {
+    background: rgba(32, 28, 87, 0.699);
+    padding: 5px 10px;
+    color: azure;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 95%;
+    margin: auto;
+ }
 
  /* footer style */
 
@@ -141,7 +147,7 @@ section {
     font-size: 1.7;
  }
 
- table{
+ table {
     border-collapse: collapse;
     width: 100%;
  }
@@ -153,6 +159,7 @@ section {
 #Email {
     width: 30%;
     /* text-align: left; */
+    border-right: 2px solid black ;
 }
 
 #phone {
@@ -162,6 +169,7 @@ section {
 
 #github {
     width: 40%;
+    border-left: 2px solid black ;
     /* text-align: right; */
 }
 
@@ -176,8 +184,19 @@ th {
 }
 
 footer a {
+    /* border: rgba(48, 48, 48, 0.18) solid 3px; */
+    padding: 10px;
+    border-radius: 20px;
+    color: purple;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+footer a:hover {
     background-color: rgba(148, 49, 240, 0.621);
-    border: rgba(48, 48, 48, 0.18) solid 3px;
-    padding: 5px;
-    border-radius: 30;
+    color: blue;
+}
+
+footer a:hover::after {
+    color: black;
 }

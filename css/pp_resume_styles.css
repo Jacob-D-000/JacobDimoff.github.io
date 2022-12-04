@@ -1,0 +1,45 @@
+article {
+    background-color: rgb(251, 227, 227);
+    border-radius: initial; 
+    border: initial;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1em;
+}
+
+article h2 {
+    color: rgb(0, 162, 255);
+    text-decoration: underline;
+    line-height: 1.4em;
+}
+
+article h3 {
+    color: rgba(0, 162, 255, 0.671);
+    text-decoration: underline;
+    line-height: 1.4em;
+}
+
+article h4 {
+    color: rgba(0, 162, 255, 0.575);
+    line-height: 1em;
+}
+
+article ul, article p {
+    color: rgba(0, 0, 0, 0.705);
+    
+}
+
+article ul {
+    list-style: disc;
+    line-height: 1.2;
+}
+
+aside {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}

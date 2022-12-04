@@ -13,6 +13,7 @@
 	<meta name="keyword">
 	<title>Certifications and Proof of Skill</title>
 	<link href="../css/pp_styles_take_2.css" rel="stylesheet">
+	<link href="../css/pp_certification_styles.css" rel="stylesheet">
 	<link>
 </head>
 
@@ -23,20 +24,20 @@
 	<nav>
 		<a id="home" href="../pp_home.html"><img src="../img/home-icon.png" alt="Home Icon"></a>
 		<a id="pagelink" href="pp_career_goal.html">About</a>
-		<a id="pagelink" href="pp_resume.html">Resume</a>
 		<a id="pagelink" href="pp_learning_reflection.html">Learning Reflection</a>
-	
+		<a id="pagelink" href="pp_resume.html">Resume</a>
 	</nav>
+	<h1>Skills and Certication's</h1>
 	<section>
-		<h1>Certifications and Proof of Skill</h1>
-		<article>
-			<p>This page shows certificates and certifications</P>
-		</article>
-	</section>
-	<section>
+		<aside><p>This page shows certificates and certifications</p></aside>
 		<h2>Skill List</h2>
 		<article>
-		<table>
+		<table id="skillist">
+			<colgroup>
+				<col id="skill">
+				<col id="exp">
+				<col id="Evidence"> 
+			</colgroup>
 			<tr>
 				<th>Skill</th>
 				<th>Experience Level</th>
@@ -86,22 +87,23 @@
 				<td></td>
 				<td></td>
 			</tr>
-			<tr>
+			<!-- <tr>
 				<td></td>
 				<td></td>
 				<td></td>
-			</tr>
+			</tr> -->
 		</table>
 		</article>
 	</section>
 
-	<section> <!--Section full of list tags-->
+	<section id="examp">
 		<h2>Work Example</h2>
-		<ul>
+		<ul class="pulldown">
 		</ul>
-		<asides>
-			<h3>Other Certifications</h3> 
-			<ul>
+	</section>
+	<section id="Cert" >	
+		<h2>Other Certifications</h2> 
+			<ul class="pulldown">
 				<ul>
 					<li><img src="../img/CertificateOfCompletion_Access Essential Training Office 365Microsoft (1)-1.png" alt="" ></li>
 					<li><img src="../img/CertificateOfCompletion_Programming Foundations Databases-1.png" alt=""></li>
@@ -111,11 +113,7 @@
 				<li><img src="../img/WHMIS Certificate of Completion_SAFE10001683Introduction to WHMIS (Workplace Hazardous Materials Information Systems)(O)_Dimoff-1.png" alt=""></li>
 				<!-- <li><img src="..\img" alt=""></li> -->
 			</ul>
-		</asides>
 	</section>
-	<asides>
-	</asides>
-
 	<footer>
 		<table>
 			<colgroup>
@@ -133,16 +131,17 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td><a href="mailto:jacobdimoff@gmail.com">Personal:jacobdimoff@gmail.com</a></td>
-					<td><a href="tel:+19028257173">Personal:(902)-825-7173</a></td>
+					<td>Personal:<a href="mailto:jacobdimoff@gmail.com">jacobdimoff@gmail.com</a></td>
+					<td>Personal:<a href="tel:+19028257173">(902)-825-7173</a></td>
 					<td><a href="https://github.com/Jacob-D-000"> https://github.com/Jacob-D-000</a></td>
 				</tr>
 				<tr>
-					<td><a href="mailto:w0478482@nscc.ca">Business: w0478482@nscc.ca</a></td>
+					<td>Business:<a href="mailto:w0478482@nscc.ca">w0478482@nscc.ca</a></td>
 				</tr>
 			</tbody>
 		</table>
 	</footer>
+
 
 
 </body>
