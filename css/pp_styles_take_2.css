@@ -56,12 +56,11 @@ nav > a#pagelink {
     /* background-color: blueviolet; */
     flex: 1 1 auto;
     text-align: center;
-    /* border: 3px solid black; */
-    margin: px;
+    border: 3px solid black;
     /* padding: 5px; */
-    margin: 10px 20px;
+    margin: 10px 5px;
     text-decoration: none;
-    font-weight: none;
+    font-weight: strong;
     /* color: rgb(13, 13, 228); */
     width: 33%;
     font-size: 1em;
@@ -69,16 +68,16 @@ nav > a#pagelink {
     transition: font-size 4s linear,
     color 1s linear,
     text-shadow 4s linear,
-    text-decoration 4s linear,
-    font-weight 8s;
+    text-decoration 4s linear;
+    /* font-weight 8s; */
  }
 
  a#pagelink:hover{
-    font-size:  1.2em;
+    font-size:  1.1em;
     color: rgb(69, 0, 158);
     text-shadow: 15px 15px 15px;
     text-decoration: underline;
-    font-weight: bold;
+    /* font-weight: bold; */
  }
 
  nav a {
@@ -100,7 +99,7 @@ h1 {
    font-size: 1.3em;
    text-align: left;
    /* padding: 0px 20px; */
-   margin: 20px;
+   
 }
 
 section {
@@ -123,6 +122,9 @@ section {
     padding: 20px 25px
 
  }
+
+ /* aside style */
+ 
 
  /* footer style */
 
@@ -149,25 +151,33 @@ section {
  } */
 
 #Email {
-    width: 35%;
-    text-align: center;
+    width: 30%;
+    /* text-align: left; */
 }
 
 #phone {
-    width: 25%;
-    text-align: center;
+    width: 30%;
+    /* text-align: center; */
 }
 
 #github {
     width: 40%;
-    text-align: center;
+    /* text-align: right; */
 }
 
 th, td {
     padding: 10px;
+    text-align: left;
 }
 
 th {
     font-size: 1.3em;
     font-weight: strong;
+}
+
+footer a {
+    background-color: rgba(148, 49, 240, 0.621);
+    border: rgba(48, 48, 48, 0.18) solid 3px;
+    padding: 5px;
+    border-radius: 30;
 }
