@@ -1,12 +1,43 @@
-article {
+/* layout */
+
+section  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* section > article, section > aside {
+    font-size: 12px;
+} */
+
+aside {
+    grid-column: span 2;
+    /* font-size: 30px; */
+}
+
+#tableart {
+    grid-column: span 2;
+} 
+
+h2 {
+    margin: 10px;
+}
+
+/* #examp {
+    flex: 0 1 470px;
+}
+
+#cert {
+    flex: 0 1 470px;
+}  */
+/* table style */
+
+article#tableart {
     background: rgb(180, 177, 226);
     border-radius: 90px 90px;
     border: 2px solid rgb(59, 4, 110);
     margin: 10px;
     padding: 25px 25px
 }
-
-/* table style */
 
 table {
     border-collapse: collapse;
@@ -40,7 +71,22 @@ th {
 
 /* dropdown style */
 
+
+
 .pulldown {
     display: none;
 }
 
+#examp > h2:hover+ul.pulldown, #cert > h2:hover+ul.pulldown, ul.pulldown:hover {
+    display: block;
+} 
+
+#cert > h2:hover+ul.pulldown ul.pulldown:hover {
+    display: block;
+}
+
+/* cert style */
+
+#cert img {
+    width: 100%;
+}
