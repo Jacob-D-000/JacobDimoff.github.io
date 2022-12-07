@@ -6,9 +6,15 @@ section  {
 }
 
 
-
 h2 {
     margin: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+h2#skilltable {
+    padding: 0px;
+    padding-bottom: 10px;
 }
 
 aside {
@@ -26,8 +32,10 @@ article#tableart {
     padding: 25px 25px
 }
 
+
 table {
     border-collapse: collapse;
+    margin: 0px;
 }
 
 #skillist tr:not(:first-of-type) {
@@ -68,8 +76,8 @@ table p {
     display: none;
 }
 
-#examp > h2:hover+ul.pulldown,  ul.pulldown:hover {
-    display: block;
+#tableart > h2:hover+table.pulldown,  table.pulldown:hover {
+    display: table;
 } 
 
 #cert > h2:hover+ul.pulldown, ul.pulldown:hover {
@@ -129,4 +137,3 @@ table p {
     border-radius: 30px;
     margin: auto;
 }
-
