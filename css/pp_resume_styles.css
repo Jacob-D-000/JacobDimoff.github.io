@@ -1,3 +1,10 @@
+@charset "utf-8";
+/* 
+    pp_resume_styles.css
+    Author: Jacob D
+    Last Modified: Dec 9, 2022  
+*/
+
 article {
     background-color: rgb(251, 227, 227);
     border-radius: initial; 

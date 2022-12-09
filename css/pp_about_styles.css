@@ -1,7 +1,9 @@
-/* body * {
-    display: flex;
-} */
- 
+@charset "utf-8";
+/* 
+    pp_about_styles.css
+	Author: Jacob D
+	Last Modified: Dec 9, 2022 
+ */
 section {
     display: flex;
     flex-flow: row wrap;
@@ -44,10 +46,6 @@ figcaption {
     color: azure;
     border: 2px solid white;
     border-radius: 20px;
-    margin-top: 30;
     font-size: 0.8em;
 }
 
-/* body * {
-    border: 1px red solid;
-} */

@@ -1,3 +1,9 @@
+@charset "utf-8";
+/* 
+    pp_styles_take_2.css
+    Author: Jacob D
+    Last Modified: Dec 9, 2022  
+*/
 
 /* html style */
 
@@ -13,19 +19,13 @@ body {
     background-color: rgba(233, 231, 231, 0.404);
     margin-left: auto;
     margin-right: auto;
-    margin: 0px, auto;
     width: 980px;
-    /* border: 1px solid red; */
  }
 
  ul {
 	list-style: none;
 	list-style-image: none;
 }
-
- /* body * {
-    /* border: 1px solid blue; */
- /* } */
 
  /* header styles */
 
@@ -48,34 +48,29 @@ a#home {
     padding-top: 10px;
 }
 
-nav > a#pagelink {
+nav > a.pagelink {
     flex: 1 1 auto;
     text-align: center;
     margin: 10px 5px;
     text-decoration: none;
-    font-weight: strong;
-    /* color: rgb(13, 13, 228); */
+    font-weight: bold;
     font-size: 1em;
     color:  blue;
     transition: font-size 4s linear,
     color 1s linear,
     text-shadow 4s linear,
     text-decoration 4s linear;
-    /* font-weight 8s; */
-    /* display: inline-flex; */
  }
 
- a#pagelink:hover{
+ a.pagelink:hover{
     font-size:  1.1em;
     color: rgb(69, 0, 158);
     text-shadow: 15px 15px 15px;
     text-decoration: underline;
-    /* font-weight: bold; */
  }
 
  nav a {
     padding: 5px 10px;
-    /* margin:  ; */
  }
  
  nav img {
@@ -83,7 +78,6 @@ nav > a#pagelink {
     height: 30px
  }
  
-
 /* header styles */
 
 h1 {
@@ -95,13 +89,11 @@ h1 {
     margin-left: 40px;
     border-radius: 30px;
     display: inline-flex
-   /* padding: 0px 20px; */
 }
 
 h2 {
     color: rgb(59, 4, 110);
     margin: 30px 20px 30px 40px;
-
 }
 
  /* section style */
@@ -143,8 +135,8 @@ section {
  footer h2 {
     text-align: left;
     margin: 20px;
-    padding: 10px, 20px;
-    font-size: 1.7;
+    padding: 10px 20px;
+    font-size: 1.7em;
  }
 
  table {
@@ -152,25 +144,18 @@ section {
     width: 100%;
  }
 
- /* thead {
-    /* background-color: rgb(180, 177, 226); 
- } */
-
 #Email {
     width: 30%;
-    /* text-align: left; */
     border-right: 2px solid black ;
 }
 
 #phone {
     width: 30%;
-    /* text-align: center; */
 }
 
 #github {
     width: 40%;
     border-left: 2px solid black ;
-    /* text-align: right; */
 }
 
 th, td {
@@ -180,11 +165,10 @@ th, td {
 
 th {
     font-size: 1.3em;
-    font-weight: strong;
+    font-weight: bold;
 }
 
 footer a {
-    /* border: rgba(48, 48, 48, 0.18) solid 3px; */
     padding: 10px;
     border-radius: 20px;
     color: purple;
