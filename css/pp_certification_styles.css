@@ -1,0 +1,132 @@
+/* layout */
+
+section  {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+h2 {
+    margin: 10px;
+}
+
+aside {
+    padding: 30px 10px;
+    margin-right: auto;
+    margin-left: 50px;
+    width: 70%;
+}
+
+article#tableart {
+    background: rgb(180, 177, 226);
+    border-radius: 90px 90px;
+    border: 2px solid rgb(59, 4, 110);
+    margin: 10px;
+    padding: 25px 25px
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#skillist tr:not(:first-of-type) {
+    border-top: 2px solid black;
+    /* border-bottom: 2px solid black; */
+}
+
+#final{
+    border-bottom: inherit;
+}
+
+#skill {
+    border-right: 2px solid black;
+}
+
+#Evidence {
+    border-left: 2px solid black;
+}
+
+th {
+    text-align: center;
+    color: rgb(59, 4, 110);	
+}
+/* #skill {
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+} */
+
+table p {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* dropdown style */
+
+
+.pulldown {
+    display: none;
+}
+
+#examp > h2:hover+ul.pulldown,  ul.pulldown:hover {
+    display: block;
+} 
+
+#cert > h2:hover+ul.pulldown, ul.pulldown:hover {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* cert style */
+#cert {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+/* #cert *{
+    border: 3px black solid;
+} */
+
+
+#cert h2 {
+    flex: 1 1 100%;
+    margin: 0px;
+}
+
+#cert ul {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#cert ul li {
+    margin: 0px auto;
+}
+
+
+#cert figure{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#cert a {
+    flex: 0 1 30%;
+}
+
+#cert img {
+    width: 100%;
+    border: 2px solid black;
+}
+
+#cert figcaption {
+    flex: 0 1 55%;
+    background: rgba(32, 28, 87, 0.699);
+    padding: 5px 0px;
+    text-align: center;
+    color: azure;
+    border: 3px solid white;
+    border-radius: 30px;
+    margin: auto;
+}
+
